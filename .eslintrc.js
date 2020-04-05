@@ -166,6 +166,7 @@ module.exports = {
     "valid-typeof": "off",
     "object-curly-spacing": ["error", "always"],
     "semi": ["error", "never"],
+    "no-multiple-empty-lines": ["error", {"max": 1, "maxEOF": 0}],
 
     "import/order": ["error", {
       "groups": [["builtin", "external", "internal"]],
