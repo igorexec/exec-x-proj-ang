@@ -184,6 +184,7 @@ module.exports = {
     "import/no-default-export": "error",
     "import/no-internal-modules": ["error", {
       "allow": [
+        "@core/public-components/*",
         "@core/ui-kit/*",
         "@core/services/*",
         "@core/common/*",

@@ -1,0 +1,9 @@
+@import "@design/settings/colors.scss";
+
+:host {
+  background: $gray;
+  display: block;
+  height: 3rem;
+  position: relative;
+  width: 100%;
+}

@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser'
 import { NgModule } from '@angular/core'
 import { UiKitModule } from '@core/ui-kit'
-import { PublicComponentsModule } from '@core/public-components'
+import { HeaderModule } from '@core/public-components/header'
 import { AppComponent } from './app.component'
 import { AppRoutingModule } from './app-routing.module'
 
@@ -12,7 +12,7 @@ import { AppRoutingModule } from './app-routing.module'
   imports: [
     BrowserModule,
     AppRoutingModule,
-    PublicComponentsModule,
+    HeaderModule,
     UiKitModule,
   ],
   providers: [],

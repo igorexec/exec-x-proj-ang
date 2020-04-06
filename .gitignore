@@ -4,6 +4,7 @@
 /dist
 /tmp
 /out-tsc
+__ngcc_entry_points__.json
 # Only exists if Bazel was run
 /bazel-out
 
