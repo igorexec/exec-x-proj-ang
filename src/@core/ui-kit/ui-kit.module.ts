@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core'
-import { ButtonComponent } from './button'
+import { ButtonComponent } from '@core/ui-kit/atoms'
 
 const COMPONENTS = [
   ButtonComponent

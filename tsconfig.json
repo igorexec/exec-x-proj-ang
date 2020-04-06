@@ -14,7 +14,10 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "*.scss": ["*.scss"]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
