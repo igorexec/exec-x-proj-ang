@@ -4,6 +4,6 @@ import { Component } from '@angular/core'
   selector: 'arb-mobile-header',
   template: `
     <nav>mobile header</nav>
-  `
+  `,
 })
 export class MobileHeaderComponent {}

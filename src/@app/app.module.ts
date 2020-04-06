@@ -7,15 +7,15 @@ import { AppRoutingModule } from './app-routing.module'
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     PublicComponentsModule,
-    UiKitModule
+    UiKitModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
 export class AppModule { }

@@ -3,7 +3,7 @@ import { ScreenSizes } from '@design/export'
 
 @Directive({
   selector: '[responsive]',
-  exportAs: 'responsive'
+  exportAs: 'responsive',
 })
 export class ResponsiveDirective {
   @HostListener('window:resize')

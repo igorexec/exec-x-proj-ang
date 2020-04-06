@@ -167,6 +167,7 @@ module.exports = {
     "object-curly-spacing": ["error", "always"],
     "semi": ["error", "never"],
     "no-multiple-empty-lines": ["error", {"max": 1, "maxEOF": 0}],
+    "comma-dangle": ["error", "always-multiline"],
 
     "import/order": ["error", {
       "groups": [["builtin", "external", "internal"]],

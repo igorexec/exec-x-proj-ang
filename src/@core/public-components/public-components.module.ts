@@ -8,20 +8,20 @@ import { DesktopHeaderComponent } from './desktop-header'
 const COMPONENTS = [
   HeaderComponent,
   MobileHeaderComponent,
-  DesktopHeaderComponent
+  DesktopHeaderComponent,
 ]
 
 const DIRECTIVES = [
-  ResponsiveDirective
+  ResponsiveDirective,
 ]
 
 const EXPORT_COMPONENTS = [
-  HeaderComponent
+  HeaderComponent,
 ]
 
 @NgModule({
   imports: [CommonModule],
   declarations: [...COMPONENTS, ...DIRECTIVES],
-  exports: [...EXPORT_COMPONENTS]
+  exports: [...EXPORT_COMPONENTS],
 })
 export class PublicComponentsModule {}

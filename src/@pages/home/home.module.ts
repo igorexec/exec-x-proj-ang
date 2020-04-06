@@ -5,6 +5,6 @@ const COMPONENTS = [HomeComponent]
 
 @NgModule({
   declarations: [...COMPONENTS],
-  exports: [...COMPONENTS]
+  exports: [...COMPONENTS],
 })
 export class HomeModule {}

@@ -4,6 +4,6 @@ import { Component } from '@angular/core'
   selector: 'arb-desktop-header',
   template: `
     <nav>desktop header</nav>
-  `
+  `,
 })
 export class DesktopHeaderComponent {}

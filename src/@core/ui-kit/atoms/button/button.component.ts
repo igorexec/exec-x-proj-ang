@@ -6,6 +6,6 @@ import { Component } from '@angular/core'
     <button>
       <ng-content></ng-content>
     </button>
-  `
+  `,
 })
 export class ButtonComponent {}

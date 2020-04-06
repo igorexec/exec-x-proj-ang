@@ -4,6 +4,6 @@ import { Component } from '@angular/core'
   selector: 'arb-home',
   template: `
     <main>Home page</main>
-  `
+  `,
 })
 export class HomeComponent {}

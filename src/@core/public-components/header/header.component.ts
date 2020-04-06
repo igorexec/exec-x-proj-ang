@@ -9,6 +9,6 @@ import { Component } from '@angular/core'
         <arb-desktop-header></arb-desktop-header>
       </ng-template>
     </header>
-  `
+  `,
 })
 export class HeaderComponent {}
